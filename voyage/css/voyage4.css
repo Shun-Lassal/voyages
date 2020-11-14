@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    width: 100%;
+    height: auto;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+#home{
+    background-color: #00232e;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    overflow: auto;
+}
+.bande-pres{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url(../images/img2/image-bande-presentation.jpg);
+    background-position: 15%;
+    border-bottom: solid rgb(122, 24, 24) 2px;
+    border-top: solid rgb(122, 24, 24) 2px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Rye', cursive;
+    letter-spacing: 2rem;
+    color: rgb(122, 24, 24);
+}
+.all-button{
+    width: 100%;
+    height: 321px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#button{
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    background-color: grey;
+    border: solid black 2px;
+}
+a{
+    width: 200px;
+}
+#button:hover{
+    background-color: rgb(122, 24, 24);
+}
+#intermediaire{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.all-button-page{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#histoire{
+    background-image: url(../images/img2/image-histoire.webp);
+    background-size: cover;
+    height: 624px;
+}
+#titre-histoire{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rye', cursive;
+}
+.hg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sous-hg{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px ;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.562);
+    margin-right: 30px;
+    border-radius: 10px;
+    border: solid rgb(122, 24, 24) 2px;
+    text-align: center;
+}
+#sous-sous-hg{
+    font-size: 20px;
+}
+#specialites{
+    width: 100%;
+    height: 624px;
+    background-color: #00232e;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+.spec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.left-spec{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.top-left-spec{
+    display: flex;
+    flex-direction: row;
+}
+#image-top{
+    width: 30%;
+    height: 150px;
+    border-bottom: solid black 2px;
+}
+#image-down{
+    width: 80%;
+    height: 200px;
+}
+.right-spec{
+    width: 50%;
+    display: flex;
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+#cadre{
+    width: 100%;
+    height: 624px;
+    background-color: #00232e;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+.sous-cadre{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    
+    font-size: 20px;
+
+}
+#image-cadre{
+    width: 25%;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#text-cadre{
+    padding-left: 45%;
+}
+#contact{
+    width: 100%;
+    height: 624px;
+    background-color: #00232e;
+    background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
+    overflow: auto;
+}
+#bottom-east{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+#ligne-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+#form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(121, 95, 95, 0.829);
+    border-radius: 10px;
+    border: solid black 3px;
+    text-align: center;
+}
+#boutton{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+}
+#cadre{
+    border-radius: 10px;
+    height: 20px;
+    margin-right: 30px;
+    background-color: white;
+}
+#titre-contact{
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-deroulant,
+#menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 5vh;
+    background-color: black;
+
+}
+
+#menu-deroulant li {
+    display: inline-block;
+    background-color: black;
+    color: grey;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+    width: 113%;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#menu-deroulant a:hover {
+    color: green;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    font-size: 3vh;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+.footer1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 29);
+}
+
+.photo-team{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#photo-team1{
+    width: 90px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+.right-footer{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-footer{
+    width: 70px;
+    height: 70px;
+}
+.titre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    height: 70px;
+}
+.text-footer{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+p#para2-footer{
+    margin: 0;
+    padding: 3px;
+}
+.reseaux{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo-reseaux{
+    width: 50px;
+    height: 50px;
+
+}
