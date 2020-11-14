@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #00141f;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+.top-page{
+    background-image: url(../images/img/pont-brooklyn.jpg);
+    background-size: cover;
+    background-position: 70%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#titre-top-page{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(255, 255, 255, 0.644);
+    padding-top: 30px;
+}
+.album-photo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid black 3px;
+}
+.left-album{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-right: solid black 3px;
+}
+.top-left-album{
+    width: 100%;
+    height: 300px;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+}
+#image-top-left-album{
+    width: 100%;
+    height: 300px;
+}
+.down-left-album{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+#image-down-left-album{
+    width: 50%;
+    height: 200px;
+    border-right: solid black 3px;
+}
+#image2-down-left-album{
+    width: 49.7%;
+    height: 200px;
+}
+.sous-titre{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#sous-titre-page{
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 30px;
+}
+.paragraphe-est{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+#sous-para-est{
+    font-size: 20px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+.image-est{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sous-image-est{
+    width: 24.5%;
+    height: 200px;
+    border-right: solid black 2px;
+    transition: 1s;
+}
+.sous-image-est:hover{
+    width: 30%;
+    height: 250px;
+}
+.incontournable{
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 23, 23, 0.719);
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.incontournable1{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#image-incontournable{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+#nom-ville{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+}
+#titre-contact{
+    font-size: 30px;
+}
+#bottom-east{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+}
+#ligne-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+#form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(68, 23, 23, 0.719);
+    border-radius: 10px;
+    border: solid black 3px;
+    background-image: url(img/image-contact.jpg);
+}
+#button{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+}
+#cadre{
+    border-radius: 10px;
+    height: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-deroulant,
+#menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 5vh;
+    background-color: black;
+
+}
+
+#menu-deroulant li {
+    display: inline-block;
+    background-color: black;
+    color: grey;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+    width: 113%;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#menu-deroulant a:hover {
+    color: green;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    font-size: 3vh;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+.footer1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 29);
+}
+
+.photo-team{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#photo-team1{
+    width: 90px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+.right-footer{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-footer{
+    width: 70px;
+    height: 70px;
+}
+.titre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    height: 70px;
+}
+.text-footer{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+p#para2-footer{
+    margin: 0;
+    padding: 3px;
+}
+.reseaux{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo-reseaux{
+    width: 50px;
+    height: 50px;
+
+}
