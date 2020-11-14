@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@keyframes backgroundAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+main, body, * {
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
+
+
+#menu-deroulant,
+#menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    background-color: black;
+    width:100vw;
+
+}
+
+#menu-deroulant li {
+    display: inline-block;
+    background-color: black;
+    color: grey;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+    width: 113%;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#menu-deroulant a:hover {
+    color: green;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    font-size: 3vh;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+
+
+section#main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/wall.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size:90px;
+  color:white;
+  font-family: 'Lobster', cursive;
+}
+
+p#maintext {
+  color:wheat;
+  font-size:40px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+section#main2 {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width:100vw;
+  height: 120vh;
+  background: linear-gradient(44deg, #426eb3, #ffbae4);
+  background-size: 400% 400%;
+  animation: backgroundAnim 20s ease infinite;
+  box-shadow: 0px 0px 40px 5px black;
+}
+
+section.onglet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left:50px;
+  margin-top:50px;
+  margin-right:70px;
+  background-color: #426EB3;
+  padding:20px;
+  border-radius: 20px;
+  align-items:center;
+  box-shadow: 0px 0px 10px 3px black;
+  font-family: 'Crete Round', serif;
+}
+
+
+section.onglet#1 {
+
+}
+
+section.onglet#2 {
+
+}
+
+section.onglet#3 {
+  margin-bottom:40px;
+}
+
+section.onglet img {
+  width: 160px;
+  height: 180px;
+  border-radius: 60px;
+  padding:10px;
+  background-color:white;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+p.stext {
+  display:inline-block;
+  margin-left:50px;
+  margin-top:10px;
+  font-size:20px;
+  width: 65vw;
+}
+
+section.link {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+}
+
+section.link a.linka {
+  margin:20px;
+  padding:15px;
+  color:white;
+  background: linear-gradient(180deg, #E4AB53,#B38742);
+  text-decoration: none;
+  border-radius: 20px;
+  font-size:20px;
+  text-align:center;
+  width:auto;
+  box-shadow: 0px 0px 8px 1px black;
+}
+
+section.link a.linka:hover {
+  background: linear-gradient(0deg, #E4AB53,#B38742);
+}
+
+.footer1{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 29);
+}
+
+.photo-team{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#photo-team1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+.right-footer{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-footer{
+    width: 70px;
+    height: 70px;
+}
+.titre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    height: 70px;
+}
+.text-footer{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+p#para2-footer{
+    margin: 0;
+    padding: 3px;
+}
+.reseaux{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo-reseaux{
+    width: 50px;
+    height: 50px;
+}
