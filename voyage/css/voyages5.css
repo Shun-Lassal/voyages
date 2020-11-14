@@ -1,0 +1,148 @@
+main, body, * {
+  margin:0px;
+  padding:0px;
+}
+
+#menu-deroulant,
+#menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    background-color: black;
+    width:100vw;
+
+}
+
+#menu-deroulant li {
+    display: inline-block;
+    background-color: black;
+    color: grey;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+    width: 113%;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#menu-deroulant a:hover {
+    color: green;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    font-size: 3vh;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+
+body, main {
+  margin:0px;
+  padding:0px;
+  background-color:#FEF5E7;
+}
+
+section#hwsign {
+  background-image: url(../voyages/images/hw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+  margin:0;
+  padding:0;
+  box-shadow: 0px 5px 10px 0px black;
+  text-align: center;
+  margin-bottom:10px;
+
+}
+
+section#cflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#E7F0FE;
+}
+
+span#title {
+  text-align: center;
+  font-size:40px;
+  color:#575A5F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color:#E7F0FE;
+  border-bottom: 4px solid #A93226;
+}
+
+section#cflex1 {
+  border-right: 2px solid #A93226;
+  width: 40%;
+  border-bottom: 2px solid #A93226;
+}
+
+section#cflex1 img{
+  width: 600px;
+  height: 400px;
+  align-self: center;
+  margin-top:10px;
+  margin-bottom:5px;
+  margin-left:5px;
+}
+
+section#cflex2 {
+  width: 60%;
+  border-left: 2px solid #A93226;
+  border-bottom: 2px solid #A93226;
+}
+
+p#cftext {
+  font-size:40px;
+  margin-left:40px;
+  margin-right:40px;
+  color:#575A5F;
+}
+
+section#imgs {
+  text-align:center;
+}
+
+h2#himg {
+  text-align:center;
+  font-size:30px;
+}
+
+section#imgs img {
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px black;
+}
+
+section#imgs img#size {
+  width: 1200px;
+  height: 800px;
+}
+
+h2 {
+  color:#575A5F;
+  font-size:50px;
+  text-decoration:underline;
+}
+
+section#imgs p {
+  font-size:25px;
+  color:#575A5F;
+}
