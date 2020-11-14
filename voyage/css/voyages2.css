@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-deroulant,
+#menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 5vh;
+    background-color: black;
+
+}
+
+#menu-deroulant li {
+    display: inline-block;
+    background-color: black;
+    color: grey;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+    width: 113%;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#menu-deroulant a:hover {
+    color: green;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+    font-size: 3vh;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+
+#titreeg {
+    background-image: url(../images/egy.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 0px 8px #DA635D, 5px 5px 50px 5px #000000;
+    box-shadow: 0px 0px 0px 8px #DA635D, 5px 5px 50px 5px #000000;
+}
+
+H1 {
+    font-size: 100px;
+    font-family: 'Xanh Mono', monospace;
+    color: whitesmoke;
+    text-shadow: 4px 4px 2px orange;
+    letter-spacing: 1vw;
+}
+
+.scarabe {
+    background-image: url(../images/scara.png);
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    position: relative;
+    animation-name: marche;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marche {
+    0% {
+
+        left: -5%;
+        background-image: url(../images/scara.png);
+    }
+
+    10% {
+        left: 10%;
+        background-image: url(../images/scara2.png);
+    }
+
+    20% {
+        left: 20%;
+        background-image: url(../images/scara.png);
+    }
+
+    30% {
+        left: 30%;
+        background-image: url(../images/scara2.png);
+    }
+
+    40% {
+        left: 40%;
+        background-image: url(../images/scara.png);
+    }
+
+    50% {
+        background-image: url(../images/scara2.png);
+        left: 50%;
+    }
+
+    60% {
+        background-image: url(../images/scara.png);
+        left: 60%;
+    }
+
+
+    70% {
+        left: 70%;
+        background-image: url(../images/scara2.png);
+    }
+
+    80% {
+        background-image: url(../images/scara.png);
+        left: 80%;
+    }
+
+    90% {
+        left: 90%;
+        background-image: url(../images/scara2.png);
+    }
+
+    100% {
+        left: 110%;
+        background-image: url(../images/scara.png);
+    }
+}
+
+
+.titrearticleeg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 70px;
+    color: wheat;
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 20vh ;
+    border-top: solid 8px #DA635D;
+}
+
+.orange {
+    color: orange;
+}
+
+
+.placeartiegy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 8px #DA635D;
+    background-color: white;
+
+    padding: 2vh 0 2vh 0;
+}
+
+H3 {
+    color: black;
+    text-shadow: 4px 4px 2px orange;
+}
+
+
+.cadreimgegy {
+    background-image: url(../images/nilll.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    -webkit-box-shadow: 0px 0px 11px 0px #000000; 
+box-shadow: 0px 0px 11px 0px #000000;
+}
+
+.textegy {
+    height: 50vh;
+    width: 30vw;
+    line-height: 3vh;
+    font-size: 2vh;
+    text-align: justify;
+}
+
+main {
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.articleplacej {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: solid 3px #DA635D;
+}
+
+.articleplacej article {
+    width: 30%;
+    background-color: white;
+    opacity: 0.6;
+    padding: 5% 5% 5% 5%;
+    color: black;
+}
+
+.articleplacej article:hover {
+    opacity: 1;
+}
+
+.articleplacej article h2 {
+    font-size: 40px;
+}
+
+.articleplacej article p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.articleplace {
+    font-family: 'Fjalla One', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 3px #DA635D;
+}
+
+.articleplace article {
+    width: 30%;
+    background-color: white;
+    opacity: 0.6;
+    padding: 5% 5% 5% 5%;
+    color: black;
+    margin-left: 60%;
+}
+
+.articleplace article:hover {
+    opacity: 1;
+}
+
+.articleplace article h2 {
+    font-size: 40px;
+}
+
+.articleplace article p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#egbg1{
+    background-image: url(../images/dddd.jpg);
+    background-size: cover;
+}
+#egbg2{
+    background-image: url(../images/gXuyaI.jpg);
+    background-size: cover;
+}
+#egbg3{
+    background-image: url(../images/515006.jpg);
+}
+#egbg4{
+    background-image: url(../images/mosquee-d-assouan.jpg);
+}
+
+.lieuegincon{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: black;
+    text-shadow: 4px 4px 2px orange;
+    background-size: cover;
+}
+
+
+.lieuegincon:hover{
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 60vh;
+    width: 50vw;
+}
+
+.conteneurlieu{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vh 0 0 0;
+}
+
+#AbouSimbel{
+    background-image: url(../images/abou-simbel-1.jpg);
+}
+
+#Alexandrie{
+    background-image: url(../images/alexandrie-1.jpg);
+}
+
+#AlQoseir{
+    background-image: url(../images/quseir-1.jpg);
+}
+
+#Assouan{
+    background-image: url(../images/assouan-1.jpg);
+}
+
+#Désert{
+    background-image: url(../images/desert-blanc-1.jpg);
+}
+#Karnak{
+    background-image: url(../images/karnak-1.jpg);
+}
+#LeCaire{
+    background-image: url(../images/caire-1.jpg);
+}
+#Louxor{
+    background-image: url(../images/louxor-1.jpg);
+}
+
+.footer1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 29);
+}
+
+.photo-team{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#photo-team1{
+    width: 90px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+.right-footer{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-footer{
+    width: 70px;
+    height: 70px;
+}
+.titre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    height: 70px;
+}
+.text-footer{
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+p#para2-footer{
+    margin: 0;
+    padding: 3px;
+}
+.reseaux{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo-reseaux{
+    width: 50px;
+    height: 50px;
+
+}
